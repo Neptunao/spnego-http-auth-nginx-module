@@ -1,7 +1,7 @@
 Repository information
 =================================
 
-This repository is a fork of https://github.com/stnoonan/spnego-http-auth-nginx-module which now is in kind of inactive state. I will try to mantain it in a good condition since I use it in a lot of production services.
+This repository is a fork of https://github.com/stnoonan/spnego-http-auth-nginx-module which now is in kind of inactive state. It implements fallback to basic authentication when GSSAPI/Negotiate fails, see the [PR](https://github.com/stnoonan/spnego-http-auth-nginx-module/pull/71). I'm not a C++ developer so I can't mantain this project, unfortunately.
 
 Nginx module for HTTP SPNEGO auth
 =================================
